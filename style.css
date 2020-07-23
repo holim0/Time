@@ -49,7 +49,7 @@ body{
 #name:hover, #curri:hover, #contact:hover{
     color:red;
 }
-#contact1, #contact2{
+#contact1, #contact2,#contact3{
     margin-top:5%;
 }
 
@@ -63,7 +63,7 @@ body{
     padding-top:5%;
     padding-bottom:10%;
     display:grid;
-    grid-template-columns:20% 80%;
+    grid-template-columns:20% 25% 25% 30%;
     text-align: left;
 }
 
@@ -131,8 +131,22 @@ nav.stroke ul li a:hover:after {
 #footerbar{
     position: absolute;
     width:200%;
-    height:15%;
+    height:5%;
     background-color: white;
     left:-25%;
     box-shadow: 0 -7px 7px -5px lightgray;
+}
+
+footer{
+  font-size:13px;
+}
+.text-uppercase{
+  font-size:15px;
+}
+
+#logo{
+  margin-top:3%;
+  margin-left:10%;
+  width:170px;
+
 }
