@@ -39,10 +39,9 @@ body{
 }
 #name, #curri, #contact{
     font-family: 'Nanum Gothic', sans-serif; 
-    display:inline;
     font-size: 200%;
     font-weight: bold;
-    padding-bottom: 6%;
+    padding-bottom: 4%;
     transition: .5s ease;
 }
 
