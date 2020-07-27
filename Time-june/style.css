@@ -1,0 +1,174 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic *
+{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin:0;
+}
+#menubar{
+    position: absolute;
+    background-color: white;
+    width:100%;
+    height:11%;
+    box-shadow: 0px 4px 8px 3px lightgray;
+}
+.content{
+    font-family: 'Nanum Gothic', sans-serif;
+    position: absolute;
+    top:20%;
+    margin-left:16%;
+    margin-right:16%;
+    text-align: left;
+}
+#namecontent, #contactcontent{
+    position: relative;
+    padding-bottom:8%;
+    padding-left:4%;
+    font-size:15px;
+    line-height: 28px;
+}
+
+.curricontent {
+  position: relative;
+  padding-bottom:4%;
+  padding-left:4%;
+  font-size:15px;
+  line-height: 28px;
+}
+
+
+#name, #curri, #contact{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    padding-bottom: 4%;
+    transition: .5s ease;
+}
+
+#name:hover, #curri:hover, #contact:hover{
+    color:red;
+}
+#contact1, #contact2, #contact3{
+    margin-top:5%;
+}
+
+#hinata, #tobio{
+    width:80%;
+    height:auto;
+    border-radius: 50%;
+}
+
+#grid1{
+    padding-top:5%;
+    padding-bottom:10%;
+    display:grid;
+    grid-template-columns:20% 25% 25% 30%;
+    text-align: left;
+}
+
+#slogan{
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    margin-top:2%;
+    padding-left:4%;
+    font-size:130%;
+    margin-bottom: 4%;
+}
+
+#word_font{
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+nav {
+    font-family: "Times New Roman", Times, serif;
+
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    padding: 25px 0;
+  }
+  nav ul {
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 40px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all .5s;
+  }
+  nav ul li a:hover {
+    text-decoration: none;
+    color: #e81e25;
+  }
+nav.stroke ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #e81e25;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+#footerbar{
+    position: absolute;
+    width:100%;
+    height:5%;
+    background-color: white;
+    /* left:-25%; */
+    box-shadow: 0 -7px 7px -5px lightgray;
+    margin-left:0%;
+    margin-right:0%;
+}
+
+footer{
+  font-size:13px;
+}
+.text-uppercase{
+  font-size:15px;
+}
+
+#logo{
+  margin-top:3%;
+  margin-left:10%;
+  margin-right:10%;
+  width: 40%;
+
+}
+
+.font_bold{
+  font-weight: bold;
+}

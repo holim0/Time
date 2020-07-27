@@ -1,0 +1,167 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic *
+{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  position: relative;
+
+}
+body{
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom : 8%;  height: 100vh;
+    background-size: 20px 20px;
+    background-image:
+    repeating-radial-gradient( #d3d3d3 0px, white 2px, white 48px);
+}
+nav {
+  height: auto;
+  width: 90%;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  margin: 0 auto;
+  padding: 10px 0;
+}
+nav ul {
+  display: none;
+  height: auto;
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+nav ul li {
+  /* display: block; */
+  display: block;
+  /* width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #576979; */
+}
+nav ul li a {
+  /* line-height: 50px; */
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 40px;
+}
+nav ul li a,
+nav ul li a::after,
+nav ul li a::before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #e81e25;
+}
+nav.stroke ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #e81e25;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+nav a#trigger{
+  display: block;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  padding-left: 15px;
+  line-height: 40px;
+  position: relative;
+}
+nav a#trigger::after {
+  content: "";
+  background: url('../images/nav_black.png') no-repeat;
+  width:30px;
+  height:30px;
+  display: inline-block;
+  position:absolute;
+  right:15px;
+  top:10px;
+}
+
+
+/* 사진 */
+.swiper-container {
+  width: 70%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc((100% - 30px) / 2);
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: 300ms opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+
+/* 풋터 */
+#footerbar{
+    position: absolute;
+    width:200%;
+    height:5%;
+    background-color: white;
+    left:-25%;
+    box-shadow: 0 -7px 7px -5px lightgray;
+}
+
+footer{
+  background-color: white;
+  font-size:13px;
+}
+.text-uppercase{
+  font-size:15px;
+}
+
+#logo{
+  margin-top:3%;
+  margin-left:10%;
+  margin-right:10%;
+  width: 40%;
+}
